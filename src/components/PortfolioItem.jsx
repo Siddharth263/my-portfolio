@@ -8,8 +8,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
          rel="noopener noreferrer"
          className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
       >
-         <img
-            src={imgUrl}
+         <img src={imgUrl}
             alt="portfolio" 
             className="w-full h-36 md:h-48 object-cover cursor-pointer"
          />
@@ -21,6 +20,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
                      {item}
                   </span>
                ))}
+
             </p>
          </div>
       </a>

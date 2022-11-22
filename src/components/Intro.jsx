@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div>
       <div className="m-auto h-96 w-96 border-4 border-sky-900 rounded-full 
-        bg-[url('/public/assets/IMG20220319165836.jpg')] bg-no-repeat bg-cover" />
+        bg-[url('/assets/IMG20220319165836.jpg')] bg-no-repeat bg-cover" />
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
         <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Priyanshu</h1>
         <p className="text-base md:text-xl mb-3 font-medium">Java Backend Developer</p>
